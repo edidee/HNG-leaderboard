@@ -22,6 +22,7 @@ const logData = (data) => {
     });
   }
   console.log(participants);
+  return participants;
 };
 
 fetchEntries();
