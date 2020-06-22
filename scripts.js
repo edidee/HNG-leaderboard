@@ -19,9 +19,9 @@ const logData = (data) => {
         email: `${entry.gsx$email.$t}`,
         points: `${entry.gsx$totalpoints.$t}`,
       });
-      console.log(participants);
     });
   }
+  console.log(participants);
 };
 
 fetchEntries();
