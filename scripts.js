@@ -23,7 +23,7 @@ const logData = (data) => {
         name: `${entry.gsx$fullname.$t}`,
         username: `${entry.gsx$username.$t}`,
         email: `${entry.gsx$email.$t}`,
-        points: `${entry.gsx$totalpoints.$t}`,
+        points: Number(`${entry.gsx$totalpoints.$t}`),
       });
     });
   }
